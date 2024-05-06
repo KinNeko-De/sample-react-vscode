@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Start using Default browser",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script", "start"],
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Start using Chrome",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script", "startchrome"],
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Start using Firefox",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script", "startfirefox"],
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Start using Chrome Incognito",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script", "startchromeincognito"],
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Start using Firefox private",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script", "startfirefoxprivate"],
+    },
+  ]
+}
